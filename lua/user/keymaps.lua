@@ -63,8 +63,10 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Terminal --
 -- Better terminal navigation
--- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
--- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
--- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
--- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+keymap("t", "<c-h>", "<c-\\><c-n><c-w>h", term_opts)
+keymap("t", "<c-j>", "<c-\\><c-n><c-w>j", term_opts)
+keymap("t", "<c-k>", "<c-\\><c-n><c-w>k", term_opts)
+keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+
+
 

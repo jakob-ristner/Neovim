@@ -1,0 +1,36 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.11.9)  15 NOV 2022 12:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ftplugin/text.lua
+(./ftplugin/text.lua
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-10>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 l
+     ocal keymap = vim.api.nvim_set_keymap
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1 l
+     ocal keymap = vim.api.nvim_set_keymap
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 476156
+ 445 string characters out of 5814963
+ 298780 words of memory out of 5000000
+ 20892 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 12i,0n,12p,88b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
