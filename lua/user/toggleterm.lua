@@ -68,3 +68,7 @@ local python = Terminal:new({ cmd = "python", hidden = true })
 function _PYTHON_TOGGLE()
 	python:toggle()
 end
+
+function _GHCI_MAIN()
+  return Terminal:new({ cmd = "ghci Main", hidden = false }):toggle()
+end

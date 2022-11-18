@@ -3,16 +3,18 @@ local servers = {
 	-- "cssls",
 	-- "html",
 	-- "tsserver",
-	"pyright",
 	-- "bashls",
 	"jsonls",
 	-- "yamlls",
-  "hls"
+  "hls",
+  "clangd",
+  "pyright"
+
 }
 
 local settings = {
 	ui = {
-		border = "none",
+		border = "rounded",
 		icons = {
 			package_installed = "◍",
 			package_pending = "◍",
