@@ -8,7 +8,8 @@ local servers = {
 	-- "yamlls",
   "hls",
   "clangd",
-  "pyright"
+  "pyright",
+  "rust_analyzer"
 
 }
 
